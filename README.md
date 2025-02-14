@@ -1,4 +1,4 @@
-# PPE Kit Detection
+# Automated Check of PPE on staff in Automobile Industry
 
 This project focuses on detecting Personal Protective Equipment (PPE) in images or videos using computer vision techniques. It is designed to ensure compliance with safety standards in workplaces by identifying whether individuals are wearing the necessary protective gear.
 
