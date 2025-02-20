@@ -23,7 +23,7 @@ pip install -r requirements.txt
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/ppe-kit-detection.git
+   git clone https://github.com/Saisindhu-Kanuri/Automated-Check-of-PPE-in-Automobile-Industry.git
    cd ppe-kit-detection
    ```
 2. Download the pre-trained model weights (if applicable) and place them in the `models` directory.
