@@ -6,16 +6,16 @@ This project leverages **computer vision** to automatically detect the presence 
 
 ## 🚀 Features
 
-- ✅ Detects key PPE items:
+- Detects key PPE items:
   - Helmets  
   - Gloves  
   - Safety vests  
   - Goggles  
   - Masks  
-- 📹 Supports both **real-time webcam detection** and **pre-recorded video analysis**
-- 🧠 Uses pre-trained deep learning models for accurate detection
-- 📦 Visualizes detections with bounding boxes and labels
-- 📝 Logs detection data for further analysis or reporting
+- Supports both **real-time webcam detection** and **pre-recorded video analysis**
+- Uses pre-trained deep learning models for accurate detection
+- Visualizes detections with bounding boxes and labels
+- Logs detection data for further analysis or reporting
 
 ---
 
@@ -52,7 +52,7 @@ pip install -r requirements.txt
    ```
 2. Download the pre-trained model weights (if applicable) and place them in the `models/` directory.
 
-## ▶️ Usage
+### ▶️ Usage
 
 1. **Video Detection:**
    
@@ -70,7 +70,7 @@ pip install -r requirements.txt
    # cap.set(4, 720)
 
 
-### Output
+### 💾 Output
 
 - Detected items will be displayed with bounding boxes and labels.
 - Results can be saved in the `output` directory.
