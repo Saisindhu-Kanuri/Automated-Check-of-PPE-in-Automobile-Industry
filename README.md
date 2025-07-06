@@ -26,7 +26,7 @@ This project leverages **computer vision** to automatically detect the presence 
 - **OpenCV** 
 - **PyTorch** 
 - **NumPy** 
-- 🤖 **Deep Learning & Computer Vision** 
+- **Deep Learning & Computer Vision** 
 
 ---
 
