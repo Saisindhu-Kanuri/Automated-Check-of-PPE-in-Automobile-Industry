@@ -1,40 +1,64 @@
-# Automated Check of PPE on staff in Automobile Industry
+# 🦺 Automated PPE Compliance Check in the Automobile Industry
 
-This project focuses on detecting Personal Protective Equipment (PPE) in images or videos using computer vision techniques. It is designed to ensure compliance with safety standards in workplaces by identifying whether individuals are wearing the necessary protective gear.
+This project leverages **computer vision** to automatically detect the presence of **Personal Protective Equipment (PPE)** on individuals in images and video streams. Designed for **automobile industry settings**, it helps ensure compliance with workplace safety standards by identifying essential protective gear.
 
-## Features
+---
 
-1. Detects common PPE items like helmets, gloves, safety vests, goggles, and masks.
-2. Supports real-time detection on video streams.
-3. Outputs results with bounding boxes and labels for detected PPE items.
-4. Includes visualization and logging capabilities.
+## 🚀 Features
 
-## Installation
+- ✅ Detects key PPE items:
+  - Helmets  
+  - Gloves  
+  - Safety vests  
+  - Goggles  
+  - Masks  
+- 📹 Supports both **real-time webcam detection** and **pre-recorded video analysis**
+- 🧠 Uses pre-trained deep learning models for accurate detection
+- 📦 Visualizes detections with bounding boxes and labels
+- 📝 Logs detection data for further analysis or reporting
 
-### Requirements
+---
 
-Ensure you have the necessary dependencies installed. A `requirements.txt` file is included for easy setup.
+
+### 🧠 Tech Stack
+
+- **Python** 
+- **OpenCV** 
+- **PyTorch** 
+- **NumPy** 
+- 🤖 **Deep Learning & Computer Vision** 
+
+---
+
+
+## 🛠️ Installation
+
+### 🔧 Requirements
+
+Ensure you have Python installed along with the necessary dependencies.
+
+Install all required packages using:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### Additional Setup
+### 📁 Setup Instructions
 
 1. Clone the repository:
    ```bash
    git clone https://github.com/Saisindhu-Kanuri/Automated-Check-of-PPE-in-Automobile-Industry.git
-   cd ppe-kit-detection
+   cd Automated-Check-of-PPE-in-Automobile-Industry
    ```
-2. Download the pre-trained model weights (if applicable) and place them in the `models` directory.
+2. Download the pre-trained model weights (if applicable) and place them in the `models/` directory.
 
-## Usage
+## ▶️ Usage
 
 1. **Video Detection:**
    
    Update the `cap` variable in the `detect.py` script as follows to use a specific video:
    ```python
-   cap = cv2.VideoCapture("../Videos/ppe-2.mp4")  # For Video
+   cap = cv2.VideoCapture("Videos/ppe-2.mp4")  # Replace with your file path
    ```
 
 2. **Real-time Detection:**
@@ -50,4 +74,3 @@ pip install -r requirements.txt
 
 - Detected items will be displayed with bounding boxes and labels.
 - Results can be saved in the `output` directory.
-  
